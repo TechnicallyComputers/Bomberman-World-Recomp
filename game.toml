@@ -1,0 +1,51 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Bomberman World"
+id = "SLUS-00680"
+players = 5
+exe = "disc/SLUS_006.80"
+disc = "disc/Bomberman World (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x8003EE18"
+text_size = "0x00069000"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Bomberman World (USA).bin"
+cue_name = "Bomberman World (USA).cue"
+boot_exe = "SLUS_006.80"
+known_sizes = [657809712]
+known_md5 = [
+  "c06e80c10474113c76e7d424566c3ddb",
+]
+known_sha1 = [
+  "18c5172fe0ab64bb80f983791cf735f3f0df918a",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Bomberman World Recompiled"
+memcard_dir = "saves"
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+allow_hybrid = false
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "9ace93aad5949d07cbdf8a94a72516e4ddd012dd339cff5fb6374aaf64c4f369"
