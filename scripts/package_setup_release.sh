@@ -43,7 +43,7 @@ exec bash "${PACKAGER}" \
   --display-name "Bomberman World  Recompiled" \
   --recompiler-build "${RECOMPILER_BUILD}" \
   --version-env RELEASE_VERSION \
-  --disc-hint "your legally owned Bomberman World disc" \
+  --disc-hint "your legally owned Bomberman-World- disc" \
   --project-file CMakeLists.txt \
   --project-file game.toml \
   --project-file VERSION \
