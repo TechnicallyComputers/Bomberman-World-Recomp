@@ -1,15 +1,15 @@
 {
   "format_version": 1,
   "game": {
-    "name": "Bomberman World",
+    "name": "Bomberman-World-Recomp",
     "id": "SLUS-00680",
     "boot_exe": "SLUS_006.80"
   },
   "marketing": {
-    "description": "Bomber worlds. To complete the areas, you must control Bomberman and set bombs to destroy enemies and obstacles that will lead to the exit. To be able to complete each level, the player must locate and pick up all of the Crystals on the map. Once this is complete, the door to the exit will open, and the player is allowed to move on to the next area. In the fourth area of each world, the player will have to defeat a Dark Force Bomber, and an extra boss that is themed after the type of world the setting is in. Once you defeat a Dark Force Bomber, the player is given a unique battle armor to wear for the next boss battle, which has a normal attack and a special attack. The battle armor is only used for the boss battles, meaning once the player advances to the next world, the battle armor will be lost. As such, it is recommended that players take full advantage of the armor.",
-    "publisher": "Hudson Soft",
-    "year": "1998",
-    "region": "USA",
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "",
     "players": 5
   },
   "rom_identity": {
