@@ -4,11 +4,6 @@
 [![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/total)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases)
 [![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/latest/total)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
 [![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Bomberman-World-Recomp)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
-
-[![Linux](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/latest/bombermanworld-%2A-linux-x64.zip)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
-[![Windows](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/latest/bombermanworld-%2A-windows-x64.zip)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
-[![macOS arm64](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/latest/bombermanworld-%2A-macos-arm64.zip)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
-[![macOS x64](https://img.shields.io/github/downloads/TechnicallyComputers/Bomberman-World-Recomp/latest/bombermanworld-%2A-macos-x64.zip)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
 Static recompilation of **Bomberman World** built on
